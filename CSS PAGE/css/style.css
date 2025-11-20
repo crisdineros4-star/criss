@@ -1,0 +1,36 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0fff0; 
+    color: #38761d; 
+    padding: 30px;
+}
+h1{
+    font-size: 45px;
+    color: #70a133;
+    text-align: center;
+    border-bottom: 5px dotted #b6d7a8;
+    padding-bottom: 10px;
+}
+.bucket-item {
+    background-color: white;
+    border: 2px solid #b6d7a8;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s;
+}
+.bucket-item:hover {
+    background-color: #e6ffe6; /* Lighter background on hover */
+}
+
+.bucket-item h2 {
+    color: #38761d;
+}
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    color: #1c4587;
+}   
